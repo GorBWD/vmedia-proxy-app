@@ -6,7 +6,6 @@ This project is a proxy server built using the NestJS framework. It retrieves co
 
 - Node.js (v18.x recommended)
 - npm (v8.x recommended)
-- Docker (optional, for containerized deployment)
 
 ## Getting Started
 
@@ -54,21 +53,6 @@ To run the application in production mode:
 ```
 npm run build
 npm run start:prod
-```
-
-## Using Docker
-
-Build the Docker Image
-To build the Docker image:
-
-```
-docker build -t nestjs-proxy .
-```
-
-Run the Docker Container
-To run the Docker container:
-```
-docker run -d -p 3000:3000 --name nestjs-proxy-container nestjs-proxy
 ```
 
 ### API Endpoints
