@@ -13,7 +13,7 @@ This project is a proxy server built using the NestJS framework. It retrieves co
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/your-username/nestjs-proxy-server.git
+    git clone https://github.com/GorBWD/vmedia-proxy-app
     cd nestjs-proxy-server
     ```
 
@@ -21,8 +21,6 @@ This project is a proxy server built using the NestJS framework. It retrieves co
     ```bash
     npm install
     ```
-
-   ```
 
 ### Environment Variables
 

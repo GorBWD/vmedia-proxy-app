@@ -1,5 +1,5 @@
 import { ConfigService } from '@nestjs/config';
-import { Controller, Get, Param, Query } from '@nestjs/common';
+import { Controller, Get, Param } from '@nestjs/common';
 import { CrawlerService } from '../crawler/crawler.service';
 
 @Controller('proxy')
